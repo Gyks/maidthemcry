@@ -1,0 +1,25 @@
+{
+  "name": "maidthemcry",
+  "version": "0.0.1",
+  "description": "Maids",
+  "main": "index.js",
+  "repository": "git@github.com:Gyks/maidthemcry.git",
+  "author": "Gyks",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "run:dev": "tsc --watch"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "vk-io": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
